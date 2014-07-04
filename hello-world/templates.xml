@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.eclipse.m2e.editor.xml.templates.contextType.plugins" deleted="false" description="WAR plugin configuration" enabled="false" id="org.eclipse.m2e.editor.xml.templates.plugin.war" name="war plugin">&lt;plugin&gt;
+        &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+        &lt;artifactId&gt;maven-war-plugin&lt;/artifactId&gt;
+        &lt;version&gt;2.4&lt;/version&gt;
+        &lt;configuration&gt;
+          &lt;!-- web.xml is not mandatory since JavaEE 5 --&gt;
+          &lt;failOnMissingWebXml&gt;false&lt;/failOnMissingWebXml&gt;
+          &lt;!--
+          &lt;filteringDeploymentDescriptors&gt;true&lt;/filteringDeploymentDescriptors&gt;
+          &lt;warSourceDirectory&gt;WebContent&lt;/warSourceDirectory&gt;        
+          &lt;webResources&gt;
+            &lt;resource&gt;
+              &lt;directory&gt;src/main/webapp2&lt;/directory&gt;
+              &lt;filtering&gt;true&lt;/filtering&gt;
+            &lt;/resource&gt;
+          &lt;/webResources&gt;
+          --&gt;
+        &lt;/configuration&gt;
+      &lt;/plugin&gt;</template></templates>
